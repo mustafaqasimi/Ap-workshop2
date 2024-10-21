@@ -1,0 +1,98 @@
+public claas Student{
+    
+    //properties
+    private String name;
+    private String lastName;
+    private String email;
+    private String faculty ;
+    private boolean gender;
+    private int age;
+    private int Id;
+    private int phone;
+    private int grade ;
+    private int symester;
+    // constractor 
+    public Student(String name ,String lastName, String email,String faculty,String faculty,int age,int phone,int 
+    grade,int symester,int Id ,boolean gender){
+        this.name = name ;
+        this.lastName = lastName;
+        this.email = email;
+        this.faculty = faculty;
+        this.age = age ;
+        this.phone  = phone ;
+        this.gender = gender;
+        this.symester = symester;
+        this.Id = Id;
+        this.grade = grade;
+    }
+    
+    public String getName(){
+        return neme;
+
+    }
+    public void setName(String name){
+        this.name = name;
+    }
+    public String getLastName(){
+        return lastName;
+    }
+    public void setLastName(String lastName){
+        this.lastName = lastName;
+    }
+    public String getEmail (){
+        return email;
+    }
+    public void setEmail (String email){
+        this.email = email;
+    }
+    public String getFaculty (){
+        return faculty;
+    } 
+    public void setFaculty(String faculty){
+        this.faculty = faculty;
+    }
+    public int getAge(){
+        retun age;
+    }
+    public void setAge(int age){
+        this.age = age;
+    }
+    public int getPhone (){
+        retun phone;
+    }
+    public void setPhone (int phone){
+        this.phone = phone ;
+    }
+    public void setSymester(int symester){
+        this.symester  = symester;
+    }
+    public int getSymester(){
+        retun symester;
+    }
+    public void setGrade(int grade){
+        this.grade = grade;
+    }
+    public int getGrade (){
+        retun grade;
+    }
+    public void setGender(int gender){
+        this.gender = gender;
+    }
+    public boolean getGender(){
+        retun gender;
+    }
+    // methods
+    public void study (){
+        System.out.println("the studen studing ");
+    }
+    public void attend(){
+        System.out.println("the student attending");
+    }
+    public void participateExam(){
+        System.out.println("the student participating exam");
+    }
+
+
+ 
+
+}

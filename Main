@@ -1,0 +1,11 @@
+public class Main{
+    public static void main(String [] args){
+         Student s1 = new Student("Mustafa", "Qasimi", "Qasimi@gmail.com", "CE", 20, 90123, 1, 2, 40231441, true);
+         s.study();
+ 
+         Student s2 = new Student("Mustafa", "Qasimi", "Qasimi@gmail.com", "CE", 20, 90123, 1, 2, 40231441, true);
+         s.study();
+         S.setName("ali");
+         System.out.println(s.getName());
+     }
+ }
