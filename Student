@@ -7,13 +7,13 @@ public claas Student{
     private String faculty ;
     private boolean gender;
     private int age;
-    private int Id;
+    private String Id;
     private int phone;
     private int grade ;
     private int symester;
     // constractor 
     public Student(String name ,String lastName, String email,String faculty,String faculty,int age,int phone,int 
-    grade,int symester,int Id ,boolean gender){
+    grade,int symester,String Id ,boolean gender){
         this.name = name ;
         this.lastName = lastName;
         this.email = email;
@@ -75,6 +75,15 @@ public claas Student{
     public int getGrade (){
         retun grade;
     }
+    public String getId(){
+        retun Id;
+    }
+    public void setId (String Id){
+        if(Id.length == 7){
+            this.Id = Id;
+        }
+
+    }
     public void setGender(int gender){
         this.gender = gender;
     }
@@ -90,6 +99,9 @@ public claas Student{
     }
     public void participateExam(){
         System.out.println("the student participating exam");
+    }
+    public void studentinfo(){
+        System.out.println("the student name is "+name+",student last name "+lastName+",student email "+email+"and student Id "+Id);
     }
 
 
